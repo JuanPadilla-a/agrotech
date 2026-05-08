@@ -5,6 +5,7 @@ README.md
 GITHUB_SETUP.md
 QUICK_START.md
 VERCEL_SETUP.md
+VERCEL_QUICK.md
 .DS_Store
 *.log
 npm-debug.log
@@ -13,3 +14,4 @@ npm-debug.log
 .idea
 dist
 build
+.next
