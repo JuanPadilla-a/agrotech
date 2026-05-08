@@ -1,0 +1,15 @@
+node_modules
+.git
+.gitignore
+README.md
+GITHUB_SETUP.md
+QUICK_START.md
+VERCEL_SETUP.md
+.DS_Store
+*.log
+npm-debug.log
+.env.local
+.vscode
+.idea
+dist
+build

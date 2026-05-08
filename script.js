@@ -1,5 +1,10 @@
 // Script de AGROTECH - Tienda Agronómica
-const API_URL = 'http://localhost:3000/api';
+// Detectar si estamos en desarrollo o producción
+const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:3000/api'
+  : `${window.location.origin}/api`;
+
+console.log('🌱 AGROTECH Configurado para:', API_URL);
 
 // Cargar productos cuando la página carga
 document.addEventListener('DOMContentLoaded', () => {
